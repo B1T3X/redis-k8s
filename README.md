@@ -20,8 +20,8 @@ kubectl exec -it redis-cluster-0 -- redis-cli \
 -a 'NXYdun&KYKzxVMCm&LPUPKtw5wJFu@kmpDKUF3X%zmX6EZtPaChk#L#6E3&hnGY%'
 ```
 
-This will check the IP addresses of the pods in the statefulset feed them to the cluster creation command.
-We're mapping 1 master to 1 slave and `-a` is used to pass the password to redis-cli.
+This will check the IP addresses of the pods in the statefulset feed them to the cluster creation command.  
+We're mapping 1 master to 1 slave and `-a` is used to pass the password to redis-cli.  
 If everything is fine we should be prompted to type `yes` in the shell to confirm the creation of the cluster.
 
 **NOTE: It since we're supplying a password, it might be beneficial to add a space before the command so it won't save it to history,  
