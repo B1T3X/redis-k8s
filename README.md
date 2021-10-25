@@ -5,7 +5,7 @@ This repository contains a manifest file for creating a Redis cluster with 3 mas
 
 **NOTE: comments in the manifest file (deploy-redis.yml) will be used for its explanations, as this is the heart of the project and is fairly complex.**
 
-**Read the following after running `kubectl apply -f deploy-redis.yml`****
+**Read the following after running `kubectl apply -f deploy-redis.yml`**
 
 
 To verify the deployment, you can use `kubectl get statefulset`, and make sure that all of the pods are running.
